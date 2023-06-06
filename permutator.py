@@ -69,6 +69,9 @@ for word in prefixlist:
         suffix = word
         namelist.append(prefix+suffix)
 
+#sort alphabetically before display
+namelist = sorted(namelist)
+        
 print(f"Generated namelist: {namelist}\n")
 
 os.system('pause')
