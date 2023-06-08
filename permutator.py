@@ -57,7 +57,7 @@ with open(suffix_file_path, encoding='utf-8-sig') as f:
 
 #debug
 print(f"List of parsed prefixes: {prefixlist}")
-print(f"List of parsed suffixes: {suffixlist}")
+print(f"List of parsed suffixes: {suffixlist}\n")
 
 # generating
 
